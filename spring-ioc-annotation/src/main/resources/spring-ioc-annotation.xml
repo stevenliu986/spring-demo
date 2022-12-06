@@ -20,4 +20,7 @@
         <!--<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>-->
         <!--<context:exclude-filter type="assignable" expression="com.example.spring.controller.UserController"/>-->
     </context:component-scan>
+
+    <!--<bean id="service" class="com.example.spring.service.impl.UserServiceImpl"/>-->
+    <!--<bean id="dao" class="com.example.spring.dao.impl.UserDaoImpl"/>-->
 </beans>

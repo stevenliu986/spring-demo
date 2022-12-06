@@ -18,6 +18,7 @@ import org.springframework.stereotype.Service;
 public class UserServiceImpl implements UserService {
 
     @Autowired
+    // @Qualifier("userDaoImpl") // 此类情况极少用到
     private UserDao userDao;
 
     public void saveUser() {
